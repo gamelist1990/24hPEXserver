@@ -1,0 +1,23 @@
+[11:49:39.659 main/INFO] Starting MCXboxBroadcast Standalone build 42 (git-master-cdc2ffa)
+[11:49:39.967 main/WARN] Unknown channel option 'IP_DONTFRAG' for channel '[id: 0x3e97beb1]'
+[11:49:41.475 main/ERROR] [Primary Session] Failed to ping server
+java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at com.rtm516.mcxboxbroadcast.bootstrap.standalone.StandaloneMain.updateSessionInfo(StandaloneMain.java:118) [MCXboxBroadcastStandalone.jar:?]
+	at com.rtm516.mcxboxbroadcast.bootstrap.standalone.StandaloneMain.main(StandaloneMain.java:72) [MCXboxBroadcastStandalone.jar:?]
+Caused by: java.util.concurrent.TimeoutException
+	at com.nukkitx.network.raknet.RakNetClient.onTick(RakNetClient.java:121) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:159) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[MCXboxBroadcastStandalone.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[MCXboxBroadcastStandalone.jar:?]
+	at java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[11:49:41.486 main/INFO] [Primary Session] Starting SessionManager...
+[11:49:41.521 main/INFO] [Primary Session] Successfully authenticated as pexserver24h (2535434471340910)
+[11:49:41.522 main/INFO] [Primary Session] Creating Xbox LIVE session...
+[11:49:45.135 main/INFO] [Primary Session] Creation of Xbox LIVE session was successful!

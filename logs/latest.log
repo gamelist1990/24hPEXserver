@@ -1,0 +1,12 @@
+[11:49:39.888 main/INFO] 拡張機能を読み込み中...
+[11:49:39.933 main/INFO] 拡張機能 GeyserConnect を有効にしました
+[11:49:39.933 main/INFO] 1 拡張機能を読み込みました
+[11:49:41.136 main/INFO] ******************************************
+[11:49:41.136 main/INFO] 
+[11:49:41.137 main/INFO] Geyser バージョン 2.4.1-b633 (git-master-3d7e62a) を読み込んでいます
+[11:49:41.137 main/INFO] 
+[11:49:41.137 main/INFO] ******************************************
+[11:49:41.337 nioEventLoopGroup-3-1/INFO] Geyser を 0.0.0.0 で開始しました: 19132
+[11:49:41.369 main/WARN] [geyserconnect] Either `passthrough-motd` or `passthrough-player-counts` is enabled in the config, this will likely produce errors
+[11:49:41.372 main/INFO] 完了 (0.235s)！ /geyser help を実行してください！
+[11:49:41.372 main/WARN] Geyser は、Bedrock の動きを完全には変換しません。 アンチチートを導入したサーバーで Geyser を使用すると、バンされる可能性があります。

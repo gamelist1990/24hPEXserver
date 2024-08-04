@@ -1,0 +1,137 @@
+# --------------------------------
+# GeyserConnect Configuration File
+# --------------------------------
+
+# Welcome message file, if file exists and is not empty this will show on join
+# This is loaded live so will update without a server restart
+welcome-file: welcome.txt
+
+# Enabled hard max player limit
+# This will kick players if the server is full
+hard-player-limit: false
+
+# A global list of servers sent to all clients
+servers:
+
+  - name: 公式サーバーリスト！
+    address: 
+    port: 19132
+    bedrock: false
+    category: OFFICIAL
+
+
+  - name: No.1[Hiveサーバー]
+    address: 167.114.81.89
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/myXmr7B.png'
+
+  - name: No.2[CubeCraftサーバー]
+    address: 94.23.159.81
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/f83ZeDS.jpg'
+
+  - name: No.3[Lifeboatサーバー]
+    address: 63.143.54.198
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://i.imgur.com/GjsxhCI.png'
+
+
+  - name: No.4[ハイピクセル系サーバ(PVP)]
+    address: play.nethergames.org
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://image.pngaaa.com/131/4142131-middle.png'
+
+  - name: No.5[ZEQAサーバー(PVP)]
+    address: zeqa.net
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://dunb17ur4ymx4.cloudfront.net/webstore/logos/f136bb5045f9a75671767007ad12441d728c8556.png'
+
+  - name: No.6[ManaCubeサーバー(PVP)]
+    address: buzz.manacube.com
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://crisps.minecraft.buzz/favicons/4306.png'
+
+  - name: No.7[Complex Gamingサーバー(PVP)]
+    address: bee.mc-complex.com
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://crisps.minecraft.buzz/favicons/4223.png'
+
+  - name: No.8[PikaNetworkサーバー(PVP)]
+    address: bedrock.pika.host
+    port: 19132
+    bedrock: true
+    category: OFFICIAL
+    imageUrl: 'https://crisps.minecraft.buzz/favicons/3387.png'
+
+  - name: Gyeser経由のJavaサーバー
+    address: test.geysermc.org
+    port: 19132
+    bedrock: true
+    category: GEYSER
+    imageUrl: 'https://geysermc.org/android-chrome-192x192.png'
+
+  - name: cubeCraft
+    address: play.cubecraft.net
+    port: 25565
+    online: true
+    bedrock: false
+    category: GEYSER
+    imageUrl: 'https://1.bp.blogspot.com/-y5ymrKvJHDs/XbxxCE4WOMI/AAAAAAAAAA4/quascGkI5sAyfUFJu96RQ0UH1QTxjvDagCLcBGAsYHQ/s1600/2b2t.jpg'
+
+
+  
+
+  
+
+  
+
+custom-servers:
+
+
+  
+  # Should custom servers be enabled for users
+  enabled: true
+
+  # Max amount of custom servers per user
+  max: 10
+
+  # Storage engine for custom servers
+  # Can be json, sqlite, mysql
+  storage-type: json
+
+  # Connection details for the mysql storage type
+  mysql:
+    user: "geyser_connect"
+    pass: ""
+    database: "geyser_connect"
+    host: "localhost"
+    port: 3306
+
+# Enable virtual hosts to be specified to skip the server list
+# Allows people to connect using addresses like
+#   hypixel.net._p25565.example.com
+#   hypixel.net.example.com
+#   hypixel.net._o.example.com    - For offline mode
+vhost:
+  # Should this be enabled
+  enabled: true
+
+  # The domains pointing to the server
+  domains:
+    - example.com
+    - eu.example.com
+    - us.example.com

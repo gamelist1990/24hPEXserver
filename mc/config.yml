@@ -1,0 +1,35 @@
+# Core session settings
+session:
+  # The amount of time in seconds to update session information
+  # Warning: This can be no lower than 20 due to xbox rate limits
+  update-interval: 30
+
+  # Should we query the bedrock server to sync the session information
+  query-server: true
+
+  # The data to broadcast over xbox live, this is the default if querying is enabled
+  session-info:
+    host-name: "§l§o PEX SERVER !! <close>"
+    world-name: "現在起動中・・・(約2分)"
+    version: 1.21.3
+    protocol: 527
+    players: 0
+    max-players: 100
+    ip: 0.0.0.0
+    port: 19132
+
+# Friend/follower list sync settings
+friend-sync:
+  # The amount of time in seconds to check for follower changes
+  # This can be no lower than 20 due to xbox rate limits
+  # unless you turn off auto-unfollow which then you can use 10
+  update-interval: 20
+
+  # Should we automatically follow people that follow us
+  auto-follow: true
+
+  # Should we automatically unfollow people that no longer follow us
+  auto-unfollow: true
+
+# Enable debug logs
+debug-log: false

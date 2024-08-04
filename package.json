@@ -1,0 +1,15 @@
+{
+    "name": "my-geyser-server",
+    "version": "1.0.0",
+    "description": "Geyser and MCXboxBroadcast server",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "iconv-lite": "^0.6.3"
+    },
+    "engines": {
+      "node": "18"
+    }
+  }
